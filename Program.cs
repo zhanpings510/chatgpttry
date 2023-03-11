@@ -29,7 +29,7 @@ class Program
         request.Content = new StringContent(payload, System.Text.Encoding.UTF8, "application/json");
 
         // Set the Authorization header
-        request.Headers.Add("Authorization", "Bearer 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");
+        request.Headers.Add("Authorization", "Bearer ag-XyAUmHf7NavistarVymQvp8ssVT3BlbkFJ8AanLW3Wuz8E7VIlTuyD");
 
         // Send the request and get the response
         var response = await client.SendAsync(request);
